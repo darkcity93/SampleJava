@@ -1,3 +1,6 @@
+/*
+ * sample
+ */
 package books;
 
 public class BookExample3 {
