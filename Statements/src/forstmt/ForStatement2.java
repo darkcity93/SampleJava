@@ -5,6 +5,9 @@ package forstmt;
  *    처리코드(실행문)
  * }
  * 
+ * 
+ * 
+ * 
  * for() 블럭에서 선언된 변수는 로컬변수로서 블럭을 벗어나면 사라진다.
  */
 public class ForStatement2 {
