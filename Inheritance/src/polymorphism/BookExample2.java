@@ -7,7 +7,7 @@ package polymorphism;
 public class BookExample2 {
 
 	public static void main(String[] args) {
-		Book book = new Book ("고전", "문화유산", "선조", 0.0);
+		Book book = new Book ("홍길동전", "고전", "허균", 0.0);
 		
 		// EBook xbook = new Book ("고전", "문화유산", "선조", 0.0);
 		// Ebook xbook1 = book;
