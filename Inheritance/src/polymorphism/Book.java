@@ -1,10 +1,10 @@
 package polymorphism;
 
 public class Book {
-	String name;  		//책명
-	String category;	// 장르
-	String author;		// 저자
-	double price;	   	// 책의 가격($)
+	protected String name;  		//책명
+	protected String category;	// 장르
+	protected String author;		// 저자
+	protected double price;	   	// 책의 가격($)
 	
 	public Book() {}
 	
@@ -43,7 +43,7 @@ public class Book {
 	}
 	
 	public String toString() {
-		String str =String.format("[Book] name(%s), category(%s), author(%s), price(%f)", name, category, author, price);
+		String str =String.format("[Book] name(%s), category(%s), author(%s), price(%f)\n", name, category, author, price);
 		
 		return str;
 	}
