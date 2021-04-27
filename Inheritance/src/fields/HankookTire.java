@@ -1,4 +1,4 @@
-package field;
+package fields;
 
 public class HankookTire extends Tire {
 
